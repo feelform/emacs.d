@@ -3,8 +3,7 @@
 
 ;; for Mac
 (when (eq system-type 'darwin)
-  (set-face-attribute 'default nil :height 180 :font "D2Coding")
-  (setq mac-command-modifier 'meta))
+  (set-face-attribute 'default nil :height 180 :font "D2Coding"))
 
 ;; for Linux
 (when (eq system-type 'gnu/linux)

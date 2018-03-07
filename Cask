@@ -26,3 +26,6 @@
 
 ;; theme
 (depends-on "darcula-theme")
+
+;; Clojure
+(depends-on "cider")
