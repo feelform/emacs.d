@@ -23,6 +23,7 @@
 (depends-on "ruby-interpolation")
 (depends-on "ruby-mode")
 (depends-on "ruby-tools")
+(depends-on "inf-ruby")
 
 ;; theme
 (depends-on "darcula-theme")
