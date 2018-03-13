@@ -1,2 +1,4 @@
 .cask/**
 *.dat
+*.data
+*.last

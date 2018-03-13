@@ -40,3 +40,5 @@
 (depends-on "shut-up")
 (depends-on "spinner")
 (depends-on "with-editor")
+
+(depends-on "restclient")
