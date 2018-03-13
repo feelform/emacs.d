@@ -1,32 +1,42 @@
 (source gnu)
-(source melpa)
 (source marmalade)
+(source melpa)
 
-;; init-loader
-(depends-on "init-loader")
-
-;; package
-(depends-on "pallet")
-
-;; library 
+(depends-on "async")
 (depends-on "auto-complete")
-(depends-on "rspec-mode")
-(depends-on "robe")
+(depends-on "cask")
+(depends-on "cider")
+(depends-on "clojure-mode")
+(depends-on "darcula-theme")
+(depends-on "dash")
+(depends-on "epl")
+(depends-on "f")
+(depends-on "findr")
+(depends-on "ghub")
+(depends-on "git-commit")
+(depends-on "inf-ruby")
+(depends-on "inflections")
+(depends-on "init-loader")
+(depends-on "jump")
+(depends-on "let-alist")
+(depends-on "magit")
+(depends-on "magit-popup")
+(depends-on "package-build")
+(depends-on "pallet")
+(depends-on "pkg-info")
+(depends-on "popup")
+(depends-on "queue")
 (depends-on "rinari")
-(depends-on "magit" "0.8.1")
-
-;; ruby
+(depends-on "robe")
+(depends-on "rspec-mode")
 (depends-on "ruby-block")
 (depends-on "ruby-compilation")
 (depends-on "ruby-end")
 (depends-on "ruby-hash-syntax")
 (depends-on "ruby-interpolation")
-(depends-on "ruby-mode")
 (depends-on "ruby-tools")
-(depends-on "inf-ruby")
-
-;; theme
-(depends-on "darcula-theme")
-
-;; Clojure
-(depends-on "cider")
+(depends-on "s")
+(depends-on "seq")
+(depends-on "shut-up")
+(depends-on "spinner")
+(depends-on "with-editor")
