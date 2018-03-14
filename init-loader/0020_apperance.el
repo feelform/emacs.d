@@ -39,6 +39,3 @@
 
 ;; Theme
 (load-theme 'darcula t)
-
-;;(require 'fit-frame)
-;;(add-hook 'after-make-frame-functions 'fit-frame)
