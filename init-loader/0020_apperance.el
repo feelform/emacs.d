@@ -38,4 +38,11 @@
 (setq-default frame-title-format "%b (%f)")
 
 ;; Theme
-(load-theme 'darcula t)
+(load-theme 'solarized-dark t)
+
+;; Typography
+(set-face-attribute 'default nil
+                    :family "Source Code Pro"
+                    :height 150
+                    :weight 'normal
+                    :width 'normal)

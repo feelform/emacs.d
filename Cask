@@ -7,7 +7,6 @@
 (depends-on "cask")
 (depends-on "cider")
 (depends-on "clojure-mode")
-(depends-on "darcula-theme")
 (depends-on "dash")
 (depends-on "epl")
 (depends-on "f")
@@ -42,3 +41,6 @@
 (depends-on "with-editor")
 
 (depends-on "restclient")
+
+(depends-on "solarized-theme")
+(depends-on "darcula-theme")
