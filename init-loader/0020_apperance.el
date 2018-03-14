@@ -16,6 +16,10 @@
                     '(#x1100 . #xffdc) '("D2Coding" . "iso10646-1"))
   (setq face-font-rescale-alist '((".*D2Coding.*" . 1.2))))
 
+;; Editor size
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
+
 ;; Turn off the menu bar at the top of each frame because it's distracting
 (menu-bar-mode -1)
 
@@ -36,5 +40,5 @@
 ;; Theme
 (load-theme 'darcula t)
 
-(require 'fit-frame)
-(add-hook 'after-make-frame-functions 'fit-frame)
+;;(require 'fit-frame)
+;;(add-hook 'after-make-frame-functions 'fit-frame)
