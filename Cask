@@ -42,5 +42,11 @@
 
 (depends-on "restclient")
 
+;; Theme
 (depends-on "solarized-theme")
 (depends-on "darcula-theme")
+
+;; Find-In-Project and Ctrl-P
+(depends-on "helm")
+(depends-on "helm-projectile")
+(depends-on "helm-ag")
