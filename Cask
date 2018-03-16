@@ -53,3 +53,4 @@
 
 ;; bash shell
 (depends-on "bash-completion")
+(depends-on "exec-path-from-shell")
