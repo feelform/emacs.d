@@ -50,3 +50,6 @@
 (depends-on "helm")
 (depends-on "helm-projectile")
 (depends-on "helm-ag")
+
+;; bash shell
+(depends-on "bash-completion")

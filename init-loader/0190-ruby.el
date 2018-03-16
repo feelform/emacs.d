@@ -22,6 +22,7 @@
 (add-to-list 'auto-mode-alist '("Guardfile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.jbuilder$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.builder$" . ruby-mode))
+(add-to-list 'auto-mode-alist '("Fastfile$" . ruby-mode))
 
 (autoload 'run-ruby "inf-ruby"
   "Run an inferior Ruby process")
