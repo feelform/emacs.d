@@ -62,3 +62,7 @@
 
 ;; search
 (depends-on "ag")
+
+;; package
+(depends-on "use-package")
+(depends-on "req-package")
