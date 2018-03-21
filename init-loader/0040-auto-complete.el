@@ -13,24 +13,23 @@
 (setq ac-quick-help-delay 1)
 (setq ac-quick-help-height 60)
 
-(set-default 'ac-sources
-             '(ac-source-dictionary
-               ac-source-words-in-buffer
-               ac-source-words-in-same-mode-buffers
-               ac-source-words-in-all-buffer))
+;;(set-default 'ac-sources
+;;             '(ac-source-dictionary
+;;               ac-source-words-in-buffer
+;;               ac-source-words-in-same-mode-buffers
+;;               ac-source-words-in-all-buffer))
 
 (dolist (mode '(magit-log-edit-mode log-edit-mode org-mode text-mode haml-mode
                 sass-mode yaml-mode csv-mode espresso-mode haskell-mode
                 html-mode nxml-mode sh-mode smarty-mode clojure-mode
-                lisp-mode javascript-mode textile-mode tuareg-mode))
+                lisp-mode javascript-mode textile-mode tuareg-mode
+		enh-ruby-mode))
   (add-to-list 'ac-modes mode))
 
 ;;Key triggers
 (ac-set-trigger-key "TAB")
 (define-key ac-menu-map (kbd "C-n")   'ac-next)
 (define-key ac-menu-map (kbd "C-p")   'ac-previous)
-(define-key ac-menu-map (kbd "M-TAB") nil)
-;; (define-key ac-completing-map (kbd "C-M-n") 'ac-next)
-;; (define-key ac-completing-map (kbd "C-M-p") 'ac-previous)
 (define-key ac-completing-map "\t" 'ac-complete)
 (define-key ac-completing-map "\r" nil)
+(define-key ac-mode-map (kbd "M-TAB") 'auto-complete)

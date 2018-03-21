@@ -2,10 +2,9 @@
 ;; Emacs configuration
 ;; based on https://www.braveclojure.com/basic-emacs/
 ;;
+(package-initialize)
 
 (setq inhibit-startup-screen t)
-
-(package-initialize)
 
 (defconst +home-dir+ "~")
 (defconst +emacs-dir+ (concat +home-dir+ "/.emacs.d"))

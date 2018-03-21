@@ -13,7 +13,6 @@
 (depends-on "findr")
 (depends-on "ghub")
 (depends-on "git-commit")
-(depends-on "inf-ruby")
 (depends-on "inflections")
 (depends-on "init-loader")
 (depends-on "jump")
@@ -27,19 +26,13 @@
 (depends-on "queue")
 (depends-on "rinari")
 (depends-on "robe")
-(depends-on "rspec-mode")
-(depends-on "ruby-block")
-(depends-on "ruby-compilation")
-(depends-on "ruby-end")
-(depends-on "ruby-hash-syntax")
-(depends-on "ruby-interpolation")
-(depends-on "ruby-tools")
 (depends-on "s")
 (depends-on "seq")
 (depends-on "shut-up")
 (depends-on "spinner")
 (depends-on "with-editor")
 
+;; network
 (depends-on "restclient")
 
 ;; Theme
@@ -54,3 +47,18 @@
 ;; bash shell
 (depends-on "bash-completion")
 (depends-on "exec-path-from-shell")
+
+;; ruby 
+(depends-on "inf-ruby")
+(depends-on "rspec-mode")
+(depends-on "ruby-block")
+(depends-on "ruby-compilation")
+(depends-on "ruby-end")
+(depends-on "ruby-hash-syntax")
+(depends-on "ruby-interpolation")
+(depends-on "ruby-tools")
+(depends-on "rbenv")
+(depends-on "ruby-test-mode")
+
+;; search
+(depends-on "ag")
