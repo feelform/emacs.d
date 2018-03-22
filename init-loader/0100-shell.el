@@ -5,3 +5,8 @@
 ;; https://github.com/szermatt/emacs-bash-completion
 (require 'bash-completion)
 (bash-completion-setup)
+
+;; https://github.com/Ambrevar/emacs-fish-completion
+;;(when (and (executable-find "fish")
+;;           (require 'fish-completion nil t))
+;;  (global-fish-completion-mode))

@@ -3,7 +3,6 @@
 (source melpa)
 
 (depends-on "async")
-(depends-on "auto-complete")
 (depends-on "cask")
 (depends-on "cider")
 (depends-on "clojure-mode")
@@ -32,6 +31,14 @@
 (depends-on "spinner")
 (depends-on "with-editor")
 
+;; auto complete
+(depends-on "auto-complete")
+(depends-on "bash-completion")
+(depends-on "emacs-fish-completion")
+
+;; shell
+(depends-on "exec-path-from-shell")
+
 ;; network
 (depends-on "restclient")
 
@@ -43,10 +50,6 @@
 (depends-on "helm")
 (depends-on "helm-projectile")
 (depends-on "helm-ag")
-
-;; bash shell
-(depends-on "bash-completion")
-(depends-on "exec-path-from-shell")
 
 ;; ruby 
 (depends-on "inf-ruby")
@@ -63,6 +66,3 @@
 ;; search
 (depends-on "ag")
 
-;; package
-(depends-on "use-package")
-(depends-on "req-package")
