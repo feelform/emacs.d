@@ -47,3 +47,5 @@
 
 (global-rbenv-mode)
 (rbenv-use-global)
+
+(require 'rspec-mode)
