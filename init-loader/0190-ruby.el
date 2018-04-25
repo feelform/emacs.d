@@ -49,3 +49,7 @@
 (rbenv-use-global)
 
 (require 'rspec-mode)
+
+(setq seeing-is-believing-prefix "C-.")
+(add-hook 'ruby-mode-hook 'seeing-is-believing)
+(require 'seeing-is-believing)

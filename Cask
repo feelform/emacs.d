@@ -62,6 +62,7 @@
 (depends-on "ruby-tools")
 (depends-on "rbenv")
 (depends-on "ruby-test-mode")
+(depends-on "seeing-is-believing")
 
 ;; search
 (depends-on "ag")
