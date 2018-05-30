@@ -3,7 +3,7 @@
 ;; based on https://www.braveclojure.com/basic-emacs/
 ;;
 (package-initialize)
-
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (setq inhibit-startup-screen t)
 
 (defconst +home-dir+ "~")
