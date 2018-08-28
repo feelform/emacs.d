@@ -66,3 +66,5 @@
 ;; search
 (depends-on "ag")
 
+;; python
+(depends-on "elpy")
