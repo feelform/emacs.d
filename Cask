@@ -66,5 +66,10 @@
 ;; search
 (depends-on "ag")
 
-;; python
-(depends-on "elpy")
+; python
+(depends-on "python-mode")
+(depends-on "jedi")
+;(depends-on "elpy")
+(depends-on "flycheck")
+(depends-on "pylint")
+(depends-on "jedi-direx")
